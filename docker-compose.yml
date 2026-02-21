@@ -1,0 +1,13 @@
+networks:
+  portfolio:
+    external: true
+
+services:
+  portfolio:
+    build: .
+    container_name: portfolio
+    expose:
+      - "3000"
+    networks:
+      - portfolio
+    restart: always

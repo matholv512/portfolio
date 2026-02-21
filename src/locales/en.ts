@@ -94,11 +94,11 @@ export const EN = {
       status: "In Development",
       tags: ["React + Next.js", "Tailwind CSS", "REST API Integration", "Dashboard", "Cloud VM Deployment"],
       links: [
-        {
-          label: "Github",
-          Icon: Github,
-          href: "https://github.com/matholv512/focus-timer-frontend",
-        },
+        // {
+        //   label: "Github",
+        //   Icon: Github,
+        //   href: "https://github.com/matholv512/focus-timer-frontend",
+        // },
         // {
         //   label: "Preview",
         //   Icon: ExternalLinkIcon,

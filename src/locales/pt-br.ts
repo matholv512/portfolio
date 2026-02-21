@@ -10,7 +10,7 @@ export const PT_BR = {
     experience: { title: "Experiência", href: "#experience", id: "experience" },
     projects: { title: "Projetos", href: "#projects", id: "projects" },
     technologies: { title: "Tecnologias", href: "#technologies", id: "technologies" },
-    contact: { title: "Contacto", href: "#contact", id: "contact" },
+    contact: { title: "Contato", href: "#contact", id: "contact" },
   },
   hero: {
     greeting: "Olá, meu nome é",
@@ -93,11 +93,11 @@ export const PT_BR = {
       status: "Em Desenvolvimento",
       tags: ["React + Next.js", "Tailwind CSS", "Consumo de API REST", "Dashboard", "Deploy em VM Cloud"],
       links: [
-        {
-          label: "Github",
-          Icon: Github,
-          href: "https://github.com/matholv512/focus-timer-frontend",
-        },
+        // {
+        //   label: "Github",
+        //   Icon: Github,
+        //   href: "https://github.com/matholv512/focus-timer-frontend",
+        // },
         // {
         //   label: "Preview",
         //   Icon: ExternalLinkIcon,
