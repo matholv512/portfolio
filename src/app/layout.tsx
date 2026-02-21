@@ -5,6 +5,7 @@ import { inter, jetbrainsMono } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://matheusrodovalho.duckdns.org"),
   title: "Matheus Rodovalho | Desenvolvedor Web FullStack",
   description:
     "Portfólio de Matheus Rodovalho, desenvolvedor web focado em React, Next.js e Node.js. Projetos, experiências e currículo.",
@@ -24,13 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Matheus Rodovalho | Desenvolvedor Web FullStack",
     description: "Portfólio de Matheus Rodovalho, desenvolvedor web.",
-    url: "https://matheusrodovalho.duckdns.com",
+    url: "https://matheusrodovalho.duckdns.org",
     siteName: "Matheus Rodovalho",
     images: [
       {
-        url: "https://matheusrodovalho.duckdns.com/preview.jpeg",
-        width: 600,
-        height: 400,
+        url: "/preview.jpeg",
+        width: 1200,
+        height: 630,
         alt: "Portfólio de Matheus Rodovalho - Desenvolvedor Web",
       },
     ],
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Matheus Rodovalho | Desenvolvedor Web FullStack",
     description: "Projetos, experiências e currículo de Matheus Rodovalho.",
-    images: ["https://matheusrodovalho.duckdns.com/preview.jpeg"],
+    images: ["/preview.jpeg"],
   },
 };
 
