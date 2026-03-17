@@ -115,7 +115,7 @@ export const PT_BR = {
         {
           label: "Github",
           Icon: Github,
-          href: "",
+          href: "https://github.com/matholv512/portfolio",
         },
         {
           label: "Preview",
